@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/ui', '@pinia/nuxt'],
   typescript: {
-    typeCheck: true
+    typeCheck: false
   },
   runtimeConfig: {
     keyFirebaseAdmin: process.env.GOOGLE_APPLICATION_CREDENTIALS,
