@@ -9,8 +9,8 @@
 							<h3 class="text-xl font-semibold leading-6 text-gray-900 dark:text-white">
 								แจ้งเตือน
 							</h3>
-							<UButton color="red" variant="ghost" icon="i-heroicons-x-mark-20-solid" class="-my-1"
-								@click="isOpen = false, resetData(), goToHome()" />
+							<UButton color="red" variant="ghost" class="-my-1"
+								@click="isOpen = false, resetData(), goToHome()">X</UButton>
 						</div>
 					</template>
 
